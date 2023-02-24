@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class UpperCase {
 
     public String solution(String str) {
-        StringBuilder answer = new StringBuilder();
+        java.lang.StringBuilder answer = new  java.lang.StringBuilder();
         for (char x : str.toCharArray()) {
             if (Character.isLowerCase(x)) {
                 answer.append(Character.toUpperCase(x));
