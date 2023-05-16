@@ -2,13 +2,6 @@ package algorithm.java;
 
 public class ChartAt {
 
-    public void main(String[] args) {
-        String nums1 = "123";
-        String nums2 = "888";
-        System.out.println(new ChartAt().solution(nums1, nums2));
-
-    }
-
     public String solution(String num1, String num2) {
         int carry = 0;
         java.lang.StringBuilder sb = new java.lang.StringBuilder ();
@@ -34,6 +27,13 @@ public class ChartAt {
             sb.append(carry);
         }
         return sb.reverse().toString();
+    }
+
+    public static void main(String[] args) {
+        String nums1 = "123";
+        String nums2 = "888";
+        System.out.println(new ChartAt().solution(nums1, nums2));
+
     }
 
 }
