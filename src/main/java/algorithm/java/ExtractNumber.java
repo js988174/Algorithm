@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ExtractNumber {
 
     public int solution(String str) {
-        int answer = 0;
+        String answer = "";
 //        for (char x : str.toCharArray()) {
 //            if (x >= 48 && x <= 57) {
 //                answer = answer * 10 + (x-48);
@@ -17,7 +17,7 @@ public class ExtractNumber {
             }
         }
 
-        return answer;
+        return Integer.parseInt(answer);
     }
 
 
